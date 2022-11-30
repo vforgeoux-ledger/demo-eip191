@@ -1,0 +1,25 @@
+{
+  "name": "example-sign-personal-message",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "scripts": {
+    "build": "parcel build",
+    "start": "parcel"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ledgerhq/hw-app-eth": "^6.29.4",
+    "@ledgerhq/hw-transport-webusb": "^6.27.1",
+    "@ledgerhq/logs": "^6.10.0",
+    "core-js": "^3.24.1",
+    "eth-crypto": "^2.3.0"
+  },
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "parcel": "^2.7.0",
+    "process": "^0.11.10",
+    "stream-browserify": "^3.0.0"
+  }
+}

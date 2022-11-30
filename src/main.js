@@ -27,7 +27,7 @@ document.querySelector("#hashMessage").addEventListener("click", async () => {
 
    //When the Ledger device connected it is trying to display the ethereum address
    const eth = new Eth(transport);
-   const signature = await eth.signPersonalMessage("44'/60'/0'/0/0", Buffer.from("test").toString("hex"));
+   const signature = await eth.signPersonalMessage("44'/60'/0'/0/0", Buffer.from(document.getElementById("message").value).toString("hex"));
    const signedHash = "0x" + signature.r + signature.s + signature.v.toString(16);
 
    //Display your ethereum address on the screen

@@ -25,12 +25,12 @@ document.querySelector("#hashMessage").addEventListener("click", async () => {
    //listen to the events which are sent by the Ledger packages in order to debug the app
    listen(log => console.log(log))
 
-   //When the Ledger device connected it is trying to display the bitcoin address
+   //When the Ledger device connected it is trying to display the ethereum address
    const eth = new Eth(transport);
    const signature = await eth.signPersonalMessage("44'/60'/0'/0/0", Buffer.from("test").toString("hex"));
    const signedHash = "0x" + signature.r + signature.s + signature.v.toString(16);
 
-   //Display your bitcoin address on the screen
+   //Display your ethereum address on the screen
    const h2 = document.createElement("h2");
    h2.textContent = signedHash;
    $main.innerHTML = "<h1>Your signed message:</h1>";

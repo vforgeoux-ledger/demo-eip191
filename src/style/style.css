@@ -23,7 +23,7 @@ input {
 }
 
 button {
-    width: 30%;
+    width: 20%;
     margin: auto;
     display: block;
 }
@@ -65,4 +65,4 @@ h3 {
     border-radius: 100%;
     cursor: pointer;
     box-shadow: -1px 5px 13px #acacac;
-}     
+} 

@@ -1,0 +1,23 @@
+.content {
+    max-width: 800px;
+    margin: auto;
+}
+
+#main {
+    text-align: center;
+}
+
+input {
+    width: 60%;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: block;
+}
+
+button {
+    width: 30%;
+    margin: auto;
+    display: block;
+}
+

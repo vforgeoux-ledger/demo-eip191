@@ -8,7 +8,7 @@ import TransportWebUSB from "@ledgerhq/hw-transport-webusb";
 // import TransportWebHID from "@ledgerhq/hw-transport-webhid";
 
 //Display the header in the div which has the ID "main"
-const initial = "<h1>Connect your Nano and open the Ethereum app. Click anywhere to start...</h1>";
+const initial = "<h1>Connect your Nano and open the Ethereum app...</h1>";
 const $main = document.getElementById("main");
 $main.innerHTML = initial;
 

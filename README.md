@@ -4,7 +4,8 @@ This repo is built from this tutorial : https://developers.ledger.com/docs/trans
 
 ## Prerequisites
 
-Ethereum app (version >=1.10.0) installed on you Ledger Nano.
+- Node and npm
+- Ethereum app (version >=1.9.19) installed on you Ledger Nano.
 
 ## Packages installation
 

@@ -36,10 +36,10 @@ document.querySelector("#hashMessage").addEventListener("click", async () => {
    $main.innerHTML = "<h1>Your signed message:</h1>";
    $main.appendChild(h2);
 
-   //Display the address on the Ledger device and ask to verify the address
+   //Display the address on 44'/60'/0'/0/0 path
    const { address } = await eth.getAddress("44'/60'/0'/0/0");
-   const add = document.createElement("div");
-   add.textContent = address
+   const add = document.createElement("h3");
+   add.textContent = "Your ETH address (path 44'/60'/0'/0/0) : " + address;
    $main.appendChild(add);
  } catch (e) {
 
